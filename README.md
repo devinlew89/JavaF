@@ -1,6 +1,6 @@
 # JavaF
  This is my final for java and this is a GUI program that allows you to order off a menu and allows you to see the price of everything
- 
+<code> 
 @Override
 	public void itemStateChanged(ItemEvent e)
 	{
@@ -215,6 +215,7 @@
 	}	
 
 }
+</code>
 In today’s age everyone is trying to make things easier. We are trying to improve on things that we have used and done the same way for years. We try to improve efficacy and are always trying to eliminate the middle man. I personal think a side by side work place is the better choice.
     
 There are many ways we can have man and machine work together rather than replacing. In fast food they want to replace people with machines and I don’t know if I trust that. At the same time, it’s hard to trust a person to get your order right the first time so I thought of a way they should implement one side of that.
