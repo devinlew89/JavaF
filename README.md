@@ -1,17 +1,45 @@
 # JavaF
-This is my final for java and this is a GUI program that allows you to order off a menu and allows you to see the price of everything.
+ This is my final for java and this is a GUI program that allows you to order off a menu and allows you to see the price of everything
 
- In today’s age everyone is trying to make things easier. We are trying to improve on things that we have used and done the same way for years. We try to improve efficacy and are always trying to eliminate the middle man. I personal think a side by side work place is the better choice.
 
- 
 
+
+@Override
+	public void itemStateChanged(ItemEvent e)
+	{
+		Object source=e.getSource();
+		int select=e.getStateChange();
+		if(source==a1)
+		{
+			if(select==ItemEvent.SELECTED)
+			txtArea.append("Beef is selected"+"\n");
+			//else 
+			//txtArea.append("Beef is de-selected"+"\n");
+		}
+		else if(source==a2)
+		{
+			if(select==ItemEvent.SELECTED)
+			txtArea.append("Vegi is selected"+"\n");
+			//else 
+			//txtArea.append("Vegi is de-selected"+"\n");
+		}
+
+
+
+
+
+
+ .
+
+    In today’s age everyone is trying to make things easier. We are trying to improve on things that we have used and done the same way for years. We try to improve efficacy and are always trying to eliminate the middle man. I personal think a side by side work place is the better choice.
+    
     There are many ways we can have man and machine work together rather than replacing. In fast food they want to replace people with machines and I don’t know if I trust that. At the same time, it’s hard to trust a person to get your order right the first time so I thought of a way they should implement one side of that.
 
  
 
    I want to make an interactive menu for fast food that could be implemented in a lot of other places like restaurants with tablets at the table or something like that. Simple menu you put your burger together with the ingredients you want and it shows you the price of how much it would be for the item every step of the way. Then you can send your order off knowing it’s what you ordered and not having to be worried about speaker systems that don’t work in the drive in or broken ears.
 
- 
+     The project is easy to use select the items you want(based off one customer)when selecting the items you will see that items are selected and displayed and when your done you can see the price take away what you want or add anything you missed. when you are done hit submit and a thank you sign appears.
 
    It will help make sure that everything someone wants is what they ordered. If you implement a items check list for the person that’s making it that they have to hit a button when they add something to make sure orders are complete. If this was done I would feel strongly about having minimum wage to be raised to 15 an hr. due to making them do all little more work for it because accuracy is important to a lot of customers like myself.
 
